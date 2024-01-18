@@ -1,0 +1,22 @@
+
+{
+  "manifest_version": 3,
+  "name": "The simple todo list",
+  "description": "A simple and straightforward way to track your todos!",
+  "version": "1.0.0",
+  "icons": {
+    "128": "./images/icon2.jpg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./images/icon1.png",
+      "48": "./images/icon1.png",
+      "128": "./images/icon1.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "popup.js"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.0/dist/confetti.umd.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="editModal.css" />
+    <link rel="stylesheet" href="confetti.css" />
+    <link rel="stylesheet" href="fireworks.css" />
+
+    <title>todo launcher</title>
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <h1 class="heading">To-do Tracker</h1>
+        <img
+          src="images/add.png"
+          ,
+          class="image"
+          ,
+          height="28px"
+          ,
+          width="28px"
+          ,
+          id="addicon"
+        />
+      </div>
+    </nav>
+
+    <section>
+      <ul id="myList"></ul>
+    </section>
+    <h1 id="hero">No To-Dos wooooot!!! 😀</h1>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Create a To-Do</h2>
+        </div>
+        <div class="modal-body">
+          <input type="text" id="taskinput" name="fname" />
+          <button class="button-3" id="btn" role="button">Add task</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="edit-Modal" class="edit-modal-class">
+      <div class="edit-modal-content">
+        <div class="edit-modal-header">
+          <h2>Edit a To-Do</h2>
+        </div>
+        <div class="edit-modal-body">
+          <input type="text" id="editinput" />
+          <button class="edit-submit-button" id="SubmiteditBtn" role="button">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="confetti.js"></script>
+  </body>
+</html>
+
+<!-- HTML !-->
