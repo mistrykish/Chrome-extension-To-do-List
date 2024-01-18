@@ -16,7 +16,7 @@ The TodoList Chrome Extension is a lightweight task management tool designed to 
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/mistrykish/the-simple-to-do-list-chrome-extension-.git
+   git clone https://github.com/mistrykish/Chrome-extension-To-do-List.git
 2.  **Enable Developer Mode:**
     
     -   Open Google Chrome.
